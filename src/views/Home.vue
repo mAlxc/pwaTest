@@ -1,8 +1,9 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-layout column fill-height secondary>
+    <v-flex>test1</v-flex>
+    <v-flex>test2</v-flex>
+    <v-flex>test3</v-flex>
+  </v-layout>
 </template>
 
 <script>
